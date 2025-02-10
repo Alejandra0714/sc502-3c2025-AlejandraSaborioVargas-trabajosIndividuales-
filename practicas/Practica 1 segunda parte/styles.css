@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f8;
+    color: #333;
+}
+
+.navbar ul {
+    background-color: #333;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    padding: 8px 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.perfil-doctor {
+    background-color: white;
+    text-align: center;
+    padding: 40px 20px;
+    margin: 40px auto;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nombre-doctor {
+    color: #2c7a7b;
+    margin-bottom: 10px;
+}
+
+.especialidad {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+#descripcion-doctor {
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.btn-appointment {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-appointment:hover {
+    background-color: #0056b3;
+}
+
+.comentarios-pacientes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+} 
+
+.review-card {
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.review-card:hover {
+    transform: translateY(-5px);
+}
+
+.review-card h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.review-card p {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.review-card small {
+    color: #888;
+}
